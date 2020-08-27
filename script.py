@@ -2,7 +2,7 @@
 # @Author: Blakeando
 # @Date:   2020-08-27 18:13:16
 # @Last Modified by:   Blakeando
-# @Last Modified time: 2020-08-27 18:31:20
+# @Last Modified time: 2020-08-27 18:32:30
 import random
 
 while True:
@@ -14,7 +14,7 @@ while True:
                     "Chimpe event",
                     "monke",
                     "".join(
-                        chr(random.randint(0, 99999))
+                        chr(random.randint(0, 9999))
                         for y in range(random.randint(46, 405))
                     ),
                 ]
